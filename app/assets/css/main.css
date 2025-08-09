@@ -1,6 +1,46 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
 
-@theme {
-    --font-sans: 'Public Sans', sans-serif;
+@theme static {
+    --font-sans: "Public Sans", sans-serif;
+
+    --color-primary-950: #0B1E34;
+    --color-primary-900: #123A63;
+    --color-primary-800: #155A99;
+    --color-primary-700: #1B74C7;
+    --color-primary-600: #2D8FF0;
+    --color-primary-500: #4FA9F5;
+    --color-primary-400: #7CC3FA;
+    --color-primary-300: #A9DBFB;
+    --color-primary-200: #D0EDFF;
+    --color-primary-100: #E8F7FF;
+    --color-primary-50: #F5FBFF;
+
+    --color-secondary-950: #1B1F25;
+    --color-secondary-900: #252B34;
+    --color-secondary-800: #2F3744;
+    --color-secondary-700: #3C4757;
+    --color-secondary-600: #4D5B6F;
+    --color-secondary-500: #65758A;
+    --color-secondary-400: #8895A8;
+    --color-secondary-300: #AEB8C5;
+    --color-secondary-200: #D3D8E0;
+    --color-secondary-100: #E7EAEE;
+    --color-secondary-50: #F6F7F9;
+
+    --color-success-950: #012914;
+    --color-success-900: #034324;
+    --color-success-800: #056835;
+    --color-success-700: #088F48;
+    --color-success-600: #0DBF62;
+    --color-success-500: #22D97C;
+    --color-success-400: #4FE598;
+    --color-success-300: #87F0BA;
+    --color-success-100: #D9FCE9;
+    --color-success-50: #EDFFF6;
+}
+
+body,
+html {
+    @apply bg-secondary-950 text-primary-50;
 }

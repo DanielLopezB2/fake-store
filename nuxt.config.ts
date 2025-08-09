@@ -11,7 +11,6 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxt/scripts',
     '@pinia/nuxt',
-    'pinia-plugin-persistedstate/nuxt',
     'nuxt-delay-hydration',
     '@nuxtjs/partytown',
   ],
@@ -30,7 +29,6 @@ export default defineNuxtConfig({
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     },
   },
-  plugins: ['~/shared/plugins/pinia'],
 
   delayHydration: {
     debug: true,
@@ -43,4 +41,8 @@ export default defineNuxtConfig({
     './app/shopping-cart',
     './app/shared',
   ],
+
+  ui: {
+    colorMode: false,
+  },
 });
