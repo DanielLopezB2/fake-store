@@ -10,7 +10,6 @@ export default defineNuxtConfig({
     '@nuxt/test-utils',
     '@nuxt/ui',
     '@nuxt/scripts',
-    'nuxt-delay-hydration',
     '@nuxtjs/partytown',
   ],
   vite: {
@@ -29,10 +28,6 @@ export default defineNuxtConfig({
     },
   },
 
-  delayHydration: {
-    debug: true,
-    mode: 'mount',
-  },
   extends: [
     './app/auth',
     './app/categories',

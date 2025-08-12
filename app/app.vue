@@ -1,4 +1,5 @@
 <template>
+  <nuxt-loading-indicator />
   <u-app :toaster="{ position: 'bottom-center' }" :tooltip="{ delayDuration: 0 }">
     <nuxt-layout>
       <nuxt-page />

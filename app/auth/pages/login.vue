@@ -15,7 +15,7 @@
           <u-input class="block" />
         </div>
 
-        <u-button label="Ingresar" :block="true" />
+        <u-button label="Ingresar" :block="true" @click="onSubmit" />
       </form>
     </div>
   </div>
@@ -26,7 +26,10 @@
     layout: 'auth',
   });
 
+  const router = useRouter();
+
   const onSubmit = () => {
     console.log('Formulario enviado');
+    router.push('/products');
   };
 </script>
