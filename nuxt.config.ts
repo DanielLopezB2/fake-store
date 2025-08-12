@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxt/scripts',
     '@nuxtjs/partytown',
+    '@vueuse/nuxt',
   ],
   vite: {
     plugins: [tailwindcss()],
