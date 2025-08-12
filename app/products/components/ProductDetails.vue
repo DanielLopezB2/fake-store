@@ -7,10 +7,10 @@
       <span>Categorias:</span>
       <u-badge color="success" :label="product?.category" />
     </div>
+    <div class="p-4">
+      <nuxt-img :src="product?.image" alt="Product Image" :width="250" />
+    </div>
     <div class="flex justify-center mt-8 items-center gap-12 max-w-2xl">
-      <div>
-        <nuxt-img :src="product?.image" alt="Product Image" :width="300" />
-      </div>
       <div class="flex flex-col">
         <div>
           <p class="font-semibold text-lg text-primary-300">Description:</p>
