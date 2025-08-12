@@ -10,7 +10,6 @@ export default defineNuxtConfig({
     '@nuxt/test-utils',
     '@nuxt/ui',
     '@nuxt/scripts',
-    '@pinia/nuxt',
     'nuxt-delay-hydration',
     '@nuxtjs/partytown',
   ],
