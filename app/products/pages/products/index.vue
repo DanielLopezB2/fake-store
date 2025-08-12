@@ -24,7 +24,7 @@
       <u-alert
         color="error"
         title="Oh no!"
-        description="Something went wrong while fetching products."
+        description="Something went wrong while fetching products. Please try again later."
         icon="i-lucide-octagon-alert"
       />
     </div>

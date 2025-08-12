@@ -14,7 +14,9 @@
 
     <div class="flex justify-between items-center">
       <p class="text-lg font-bold text-primary-500 mt-auto">${{ product.price }}</p>
-      <u-button label="Ver más" trailing-icon="i-lucide-arrow-right" />
+      <nuxt-link :to="`/products/${product.id}`" class="ml-4">
+        <u-button label="Ver más" trailing-icon="i-lucide-arrow-right" />
+      </nuxt-link>
     </div>
   </div>
 </template>
